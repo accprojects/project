@@ -1,0 +1,109 @@
+{% extends 'all_files/index.html' %}
+{% load staticfiles %}
+{% block content %}
+<div id="headerwrap">
+	<div class="container">
+		<div class="row" centered" >
+			<div class="col-lg-8 col-lg-offset-2">
+				<h1>Content of my site</h1>
+				<h2>about us , what we have </h2>
+			</div> 
+		</div>
+	</div>
+</div>
+ 
+
+<div class="container w">
+	<div class="row centered">
+		<br><br>
+		<div class="col-lg-4">
+			<i class="fa fa-heart"></i>
+			<h4>Дизайн</h4>
+			<p>fdvkdfbmglkbngkjbnkjvn kjfiuhvnkdjfurg</p>
+		</div>
+
+		<div class="col-lg-4">
+			<i class="fa fa-laptop"></i>
+			<h4>Компьютеры</h4>
+			<p>fdvввввввввввваааааааааааааааkdfbmglkbngk </p>
+		</div>
+
+		<div class="col-lg-4">
+			<i class="fa fa-trophy"></i>
+			<h4>Помощь</h4>
+			<p>fdvkdfbmglkbngkjbnkjvnkdfj nkdjfurg</p>
+		</div>
+	</div>
+	<br><br>
+</div>
+
+<div id="dg">
+	<div class="container">
+		<div class="row centered">
+			<h4>Последние работы</h4>
+			<br>
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href="#"><img src="{% static 'img/p01.png' %}" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href="#"><img src="{% static 'img/p02.png' %}" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+						<a href="#"><img src="{% static 'img/p03.png' %}" alt=""></a>
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="container wb">
+	<div class="row centered">
+		<br><br>
+		<div class="col-lg-8 col-lg-offset-2">
+			<h4>мы создаем кое-что</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto earum optio, a omnis unde explicabo saepe fugiat nobis quae nisi dolore itaque, voluptatibus porro cupiditate consectetur numquam sequi. Possimus?</p>
+			<p><br><br></p>
+		</div>
+		<div class="col-lg-2"></div>
+		<div class="col-lg-10 col-lg-offset-1">
+			<img src="{% static 'img/mf.png' %}" alt="" clacc="img-responsive">
+		</div>
+	</div>
+</div>
+
+ 
+<!-- <div id="lg">
+	<div class="container">
+		<div class="row centered">
+			<h4>Партнеры</h4>
+			<div class="col-lg-2 col-lg-offset-1">
+				<img src="img/part1.png" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="img/part2.png" alt="">
+			</div>
+			<div class="col-lg-2">
+				<img src="img/part3.png" alt="">
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<div id="r">
+	<div class="container">
+		<div class="row centered">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h4>Разработка </h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam fugit magnam provident delectus aut. Alias velit a iusto amet quae, voluptate, dolorem. Voluptates dolor molestiae fugiat non vero, illo tempora!</p>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
