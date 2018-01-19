@@ -1,8 +1,8 @@
-from django.db import models
-
-# Create your models here.
+from django.db import models  
 from django.utils import timezone
-
+from django import forms
+from django.forms import CharField, Form, PasswordInput
+# Create your models here.
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
@@ -19,3 +19,8 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+
+
+ 

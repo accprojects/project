@@ -180,3 +180,8 @@ hr {
 #f i:hover {
 	color: #ff7878;
 }
+
+.signup_login {
+	position: center;
+	margin: 30px;
+}

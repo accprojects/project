@@ -1,0 +1,16 @@
+{% extends 'all_files/index.html' %}
+{% load staticfiles %}
+ 
+{% block content %}
+ <h2>Авторизация</h2>
+ 
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Login</button>
+</form>
+<p>Не зарегистрированы?<a href="{%url 'signup'%}"></a></p>
+{% endblock %}
+
+  
+ 
